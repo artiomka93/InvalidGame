@@ -1,35 +1,27 @@
 package com.invalid.player;
 
-import org.springframework.web.socket.WebSocketSession;
-
 public class Player {
 
-	private String id;
-	private int x;
-	private int y;
+	private String x;
+	private String y;
 	
-	public Player(WebSocketSession session){
-		this.id = session.getId();
+	public Player() {	
 	}
 
-	public int getX() {
+	public String getX() {
 		return x;
 	}
 
-	public void setX(int x) {
+	public void setX(String x) {
 		this.x = x;
 	}
 
-	public int getY() {
+	public String getY() {
 		return y;
 	}
 
-	public void setY(int y) {
+	public void setY(String y) {
 		this.y = y;
-	}
-
-	public String getId() {
-		return id;
 	}
 	
 }

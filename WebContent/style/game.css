@@ -25,6 +25,10 @@
 	background-color: red;
 }
 
+.char-div {
+	position: absolute;
+}
+
 .character {
 	width: 30px;
 	height: 30px;
